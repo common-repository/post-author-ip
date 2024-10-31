@@ -1,0 +1,18 @@
+.components-panel__row .components-base-control.post-author-ip label {
+	display: inline-block;
+	margin-bottom: initial;
+}
+.components-panel__row .components-base-control.post-author-ip input {
+	display: inline-block;
+	float: right;
+	max-width: 46%;
+	padding: 0.3em;
+	text-align: right;
+}
+.components-panel__row .post-author-ip-disabled {
+	width: 100%;
+}
+.components-panel__row .post-author-ip-disabled .components-base-control.post-author-ip input {
+	border: 0;
+	color: #555d66;
+}

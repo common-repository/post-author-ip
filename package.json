@@ -1,0 +1,20 @@
+{
+  "name": "post-author-ip",
+  "description": "Records the IP address of the original post author when a post first gets created",
+  "license": "GPL-2.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coffee2code/post-author-ip.git"
+  },
+  "homepage": "https://github.com/coffee2code/post-author-ip#readme",
+  "bugs": {
+    "url": "https://github.com/coffee2code/post-author-ip/issues"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "16.1.1"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  }
+}
